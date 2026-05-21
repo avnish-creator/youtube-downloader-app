@@ -1,0 +1,4 @@
+git status              # see changes
+git add .               # stage all changes
+git commit -m "msg"     # save snapshot
+git push origin main    # upload to github
