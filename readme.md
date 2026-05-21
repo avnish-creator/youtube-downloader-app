@@ -11,7 +11,7 @@ This application provides a sleek dark-themed user interface, fast video downloa
 
 # ✨ Preview
 
-<img width="949" height="659" alt="image" src="https://github.com/user-attachments/assets/f9546287-5fdd-47e4-b6ad-0cbed8bd7c40" />
+<img width="942" height="719" alt="image" src="https://github.com/user-attachments/assets/47b480ae-d9cb-4612-beed-1a9b3e1f6c51" />
 
 
 ## Professional Desktop UI
