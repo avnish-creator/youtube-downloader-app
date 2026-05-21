@@ -67,9 +67,16 @@ if st.button("⬇ Download Video"):
                 os.makedirs(output_path, exist_ok=True)
 
                 ydl_opts = {
-                    'outtmpl': f'{output_path}/%(title)s.%(ext)s',
-                    'format': 'best'
-                }
+                                'outtmpl': f'{output_path}/%(title)s.%(ext)s',
+                                'format': 'best',
+                                'quiet': True,
+                                'nocheckcertificate': True,
+                                'ignoreerrors': False,
+                                'no_warnings': True,
+                                'http_headers': {
+                                    'User-Agent': 'Mozilla/5.0'
+                                }
+                            }
 
                 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                     info = ydl.extract_info(url, download=True)

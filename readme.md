@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green)
+![yt--dlp](https://img.shields.io/badge/yt--dlp-Downloader-red)
+
 # 🎥 YouTube Downloader App
 
 A modern and professional desktop-based YouTube video downloader built using **Python**, **Tkinter**, and **yt-dlp**.  
